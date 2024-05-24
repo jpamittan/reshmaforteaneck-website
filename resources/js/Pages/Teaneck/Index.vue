@@ -12,18 +12,18 @@ defineProps({});
                     class="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:inset-y-0 xl:right-1/2 xl:w-1/2"
                 >
                     <div
-                        class="relative h-96 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0"
+                        class="relative h-[42rem] lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0"
                     >
                         <img
-                            class="absolute inset-0 h-full w-full object-cover object-center lg:object-contain lg:object-left"
-                            src="storage/assets/arif.webp"
+                            class="absolute inset-0 h-full w-full object-cover object-center lg:object-cover lg:object-left"
+                            src="storage/assets/reshma.webp"
                             alt="Reshma Khan"
                         />
                     </div>
                 </div>
                 <div class="px-6 lg:contents text-white">
                     <div
-                        class="mx-auto max-w-2xl px-2 pb-24 pt-16 sm:pb-20 sm:pt-20 lg:ml-0 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none xl:w-1/2"
+                        class="mx-auto max-w-2xl px-8 pb-24 pt-16 sm:pb-20 sm:pt-20 lg:ml-0 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none xl:w-1/2"
                     >
                         <h1
                             class="mt-2 text-lg font-bold tracking-tight sm:text-4xl"
@@ -77,7 +77,7 @@ defineProps({});
                         >
                             <img
                                 class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
-                                src="storage/assets/arif.webp"
+                                src="storage/assets/reshma2.webp"
                                 alt=""
                             />
                             <div
