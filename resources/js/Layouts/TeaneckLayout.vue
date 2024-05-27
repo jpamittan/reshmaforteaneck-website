@@ -129,8 +129,8 @@ const navigation = [
                         class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0"
                     >
                         &copy; ReshmaForTeaneck {{ year }}. All rights reserved.
-                        Paid for by Reshma Khan for Teaneck Council. 189
-                        Hillside Ave, Teaneck NJ 07666
+                        Paid for by Khan for Council. 189 Hillside Ave, Teaneck
+                        NJ 07666
                     </p>
                 </div>
             </div>
