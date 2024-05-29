@@ -59,7 +59,7 @@ const navigation = [
                     >
                         <!-- Mobile menu button -->
                         <DisclosureButton
-                            class="relative inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2"
+                            class="relative inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:ring-offset-2"
                         >
                             <span class="absolute -inset-0.5" />
                             <span class="sr-only">Open main menu</span>
@@ -85,7 +85,7 @@ const navigation = [
                             :href="nav.href"
                             :class="[
                                 url === nav.path
-                                    ? 'border-red-900 bg-red-50 text-red-700'
+                                    ? 'border-blue-900 bg-blue-50 text-blue-700'
                                     : 'border-transparent text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800',
                                 'block border-l-4 py-2 pl-3 pr-4 text-base font-medium',
                             ]"

@@ -7,7 +7,7 @@ defineProps({});
 <template>
     <AppLayout>
         <div class="relative">
-            <div class="mx-auto max-w-7xl lg:flex bg-red-900">
+            <div class="mx-auto max-w-7xl lg:flex bg-[#0B2EAA]">
                 <div
                     class="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:inset-y-0 xl:right-1/2 xl:w-1/2"
                 >
@@ -88,7 +88,7 @@ defineProps({});
                                 aria-hidden="true"
                             >
                                 <div
-                                    class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#F2F79E] to-[#E8EC67] opacity-40"
+                                    class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#F6EE05] to-[#F6EE05] opacity-40"
                                     style="
                                         clip-path: polygon(
                                             74.1% 44.1%,
@@ -135,15 +135,6 @@ defineProps({});
                                         Builder, Reshma Khan Do It!
                                     </p>
                                 </blockquote>
-                                <figcaption
-                                    class="mt-6 text-sm leading-6 text-gray-300"
-                                >
-                                    <strong class="font-semibold text-white"
-                                        >Reshma Khan for Teaneck
-                                        Council.</strong
-                                    >
-                                    189 Hillside Ave, Teaneck NJ 07666
-                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -152,7 +143,7 @@ defineProps({});
                             class="text-base leading-7 text-gray-700 lg:max-w-lg"
                         >
                             <p
-                                class="ext-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-blue-900"
+                                class="ext-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
                             >
                                 Mission
                             </p>
@@ -177,7 +168,7 @@ defineProps({});
                             class="text-base leading-7 text-gray-700 lg:max-w-lg mt-12"
                         >
                             <p
-                                class="ext-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-blue-900"
+                                class="ext-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
                             >
                                 Vision
                             </p>
