@@ -149,7 +149,7 @@ defineProps({});
                             </p>
                             <div class="max-w-xl">
                                 <p class="mt-6">
-                                    My mission is to cultivate a welcoming
+                                    Mission is to cultivate a welcoming
                                     environment on the Teaneck Town Council,
                                     ensuring every resident feels represented
                                     and heard. I am dedicated to giving a voice
@@ -174,15 +174,14 @@ defineProps({});
                             </p>
                             <div class="max-w-xl">
                                 <p class="mt-6">
-                                    Our vision is a harmonious Teaneck—where
-                                    bridges are built between communities,
-                                    fostering peace, respect and cooperation. We
-                                    strive to enhance quality of life for all
-                                    residents, making Teaneck a beacon of
-                                    inclusivity and responsiveness. Together, we
-                                    envision a town where every voice
-                                    contributes to shaping a vibrant, equitable
-                                    future.
+                                    Vision is a harmonious Teaneck—where bridges
+                                    are built between communities, fostering
+                                    peace, respect and cooperation. We strive to
+                                    enhance quality of life for all residents,
+                                    making Teaneck a beacon of inclusivity and
+                                    responsiveness. Together, we envision a town
+                                    where every voice contributes to shaping a
+                                    vibrant, equitable future.
                                 </p>
                             </div>
                         </div>
