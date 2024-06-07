@@ -16,6 +16,11 @@ const navigation = [
         path: "/",
     },
     {
+        name: "Reshma for Teaneck ",
+        href: route("act-blue.index"),
+        path: "/reshma-for-teaneck",
+    },
+    {
         name: "Why I deserve your vote",
         href: route("community.index"),
         path: "/community",
