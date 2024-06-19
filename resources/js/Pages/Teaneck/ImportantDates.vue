@@ -113,7 +113,7 @@ const timeline = [
                             class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600"
                         >
                             Click on the link below if you would like to
-                            register to vote in the upcoming November 8th
+                            register to vote in the upcoming November 5th
                             election. The deadline is October 19th.
                         </p>
                         <div
