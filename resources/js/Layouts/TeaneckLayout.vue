@@ -21,6 +21,11 @@ const navigation = [
         path: "/reshma-for-teaneck",
     },
     {
+        name: "Events",
+        href: route("events.index"),
+        path: "/events",
+    },
+    {
         name: "Why I deserve your vote",
         href: route("community.index"),
         path: "/community",

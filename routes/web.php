@@ -4,6 +4,7 @@ use App\Http\Controllers\{
     ActBlueController,
     CommunityController,
     ContactUsController,
+    EventsController,
     HomeController,
     ImportantDatesController,
 };
@@ -23,6 +24,7 @@ Route::middleware([
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/act-blue', [ActBlueController::class, 'index'])->name('act-blue.index');
+Route::get('/events', [EventsController::class, 'index'])->name('events.index');
 Route::get('/community', [CommunityController::class, 'index'])->name('community.index');
 Route::get('/contact-us', [ContactUsController::class, 'index'])->name('contact-us.index');
 Route::get('/important-dates', [ImportantDatesController::class, 'index'])->name('important-dates.index');
