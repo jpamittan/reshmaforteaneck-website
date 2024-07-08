@@ -69,26 +69,43 @@ defineProps({
                         >
                             {{ event.details }}
                         </div>
-                        <div
-                            v-if="event.image"
-                            class="text-md leading-6 text-gray-500 mt-4"
-                        >
-                            <img
-                                class="max-w-max"
-                                :src="'storage/assets/' + event.image"
-                                alt="Event Image"
-                            />
+                        <div class="text-md leading-6 text-gray-500 mt-4">
+                            <div class="grid grid-cols-2 gap-1">
+                                <div
+                                    v-for="(image, imageIdx) in event.images"
+                                    :key="imageIdx"
+                                >
+                                    <a
+                                        :href="'storage/assets/events/' + image"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            class="w-full"
+                                            :src="
+                                                'storage/assets/events/' + image
+                                            "
+                                            alt="Event Image"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div
-                            v-if="event.video"
-                            class="text-md leading-6 text-gray-500 mt-4"
-                        >
-                            <video autoplay loop muted>
-                                <source
-                                    :src="'storage/assets/' + event.video"
-                                    type="video/mp4"
-                                />
-                            </video>
+                        <div class="text-md leading-6 text-gray-500 mt-4">
+                            <div class="grid grid-cols-2 gap-1">
+                                <div
+                                    v-for="(video, videoIdx) in event.videos"
+                                    :key="videoIdx"
+                                >
+                                    <video autoplay loop muted>
+                                        <source
+                                            :src="
+                                                'storage/assets/events/' + video
+                                            "
+                                            type="video/mp4"
+                                        />
+                                    </video>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </li>

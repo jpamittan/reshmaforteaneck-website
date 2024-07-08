@@ -20,11 +20,11 @@ const navigation = [
         href: route("act-blue.index"),
         path: "/reshma-for-teaneck",
     },
-    // {
-    //     name: "Events",
-    //     href: route("events.index"),
-    //     path: "/events",
-    // },
+    {
+        name: "Events",
+        href: route("events.index"),
+        path: "/events",
+    },
     {
         name: "Why I deserve your vote",
         href: route("community.index"),

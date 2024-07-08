@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Casts\Json;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -13,9 +14,17 @@ class Event extends Model
 
     protected $fillable = [
         'title',
-        'image',
-        'video',
+        'images',
+        'videos',
         'details',
         'event_date',
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'images' => Json::class,
+            'videos' => Json::class,
+        ];
+    }
 }

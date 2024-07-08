@@ -13,59 +13,50 @@ class EventSeeder extends Seeder
      */
     public function run(): void
     {
-        if (Event::count()) {
-            return;
-        }
+        Event::truncate();
 
         $events = [
             [
-                'title' => 'Karaoke with Reshma',
-                'image' => null,
-                'video' => 'events/karaoke.mp4',
-                'details' => 'Karaoke contest open mic at Parking lot next to Queen Anne Wine and Spirits Emporium 247 Degraw Ave. Teaneck.',
-                'event_date' => '2024-07-03',
-            ],
-            [
-                'title' => 'Parade + table @ Votee Park',
-                'image' => null,
-                'video' => null,
-                'details' => null,
-                'event_date' => '2024-07-04',
-            ],
-            [
-                'title' => 'Cedar Lane Cinema / Marquis / screening SUFFRAGETTE',
-                'image' => null,
-                'video' => null,
-                'details' => null,
-                'event_date' => '2024-07-11',
-            ],
-            [
-                'title' => 'Teaneck High Auditorium / OPEN TO PUBLIC',
-                'image' => null,
-                'video' => null,
-                'details' => null,
-                'event_date' => '2024-07-12',
-            ],
-            [
-                'title' => 'NJ in Color interview with Tevra',
-                'image' => null,
-                'video' => null,
-                'details' => '(TBD) July 14-25, 2024.',
-                'event_date' => '2024-07-14',
-            ],
-            [
-                'title' => 'Biker rally',
-                'image' => null,
-                'video' => null,
-                'details' => 'At FDU Motorcycle riding area, North Parking Lot',
-                'event_date' => null,
-            ],
-            [
-                'title' => 'Indian Independence day celebration',
-                'image' => null,
-                'video' => null,
-                'details' => 'Launch of cricket club / Honoring Jaffer Ismail for climbing Mt Everest (2024) and Danielle Gee for climbing Mt Kilimanjaro (2023) / Dance party - bhangra',
-                'event_date' => '2024-08-16',
+                'title' => 'Reshma for Teaneck launch to family and friends',
+                'images' => [
+                    'RESHMA20249.webp',
+                    'RESHMA202486.webp',
+                    'RESHMA202489.webp',
+                    'RESHMA202498.webp',
+                    'RESHMA2024115.webp',
+                    'RESHMA2024130.webp',
+                    'RESHMA2024140.webp',
+                    'RESHMA2024154.webp',
+                    'RESHMA2024161.webp',
+                    'RESHMA2024185.webp',
+                    'RESHMA2024209.webp',
+                    'RESHMA2024217.webp',
+                    'RESHMA2024221.webp',
+                    'RESHMA2024235.webp',
+                    'RESHMA2024265.webp',
+                    'RESHMA2024297.webp',
+                    'RESHMA2024406.webp',
+                    'RESHMA2024427.webp',
+                    'RESHMA2024465.webp',
+                    'RESHMA2024474.webp',
+                    'RESHMA2024533.webp',
+                    'RESHMA2024564.webp',
+                    'RESHMA2024708.webp',
+                    'RESHMA2024729.webp',
+                    'RESHMA2024737.webp',
+                    'RESHMA2024750.webp',
+                    'RESHMA2024762.webp',
+                    'RESHMA2024774.webp',
+                    'RESHMA2024781.webp',
+                    'RESHMA2024800.webp',
+                    'RESHMA2024807.webp',
+                    'RESHMA2024843.webp',
+                    'RESHMA2024861.webp',
+                    'RESHMA2024878.webp',
+                ],
+                'videos' => [],
+                'details' => 'Reshma launch campaign 2024.',
+                'event_date' => '2024-06-27',
             ],
         ];
 
