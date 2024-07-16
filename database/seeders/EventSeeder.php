@@ -58,6 +58,16 @@ class EventSeeder extends Seeder
                 'details' => 'Reshma launch campaign 2024.',
                 'event_date' => '2024-06-27',
             ],
+            [
+                'title' => 'One Town One Vote Campaign',
+                'images' => [
+                    '1.webp',
+                    '2.webp',
+                ],
+                'videos' => [],
+                'details' => 'Vote YES twice. Yes to question 1: Community Choice Aggregation and Yes to question 2: Do you want the May elections to be moved to November.',
+                'event_date' => '2024-07-11',
+            ],
         ];
 
         foreach ($events as $event) {
