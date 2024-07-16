@@ -68,6 +68,13 @@ class EventSeeder extends Seeder
                 'details' => 'Vote YES twice. Yes to question 1: Community Choice Aggregation and Yes to question 2: Do you want the May elections to be moved to November.',
                 'event_date' => '2024-07-11',
             ],
+            [
+                'title' => 'Live podcast with Tevra Francis of NJ in Color fame',
+                'images' => [],
+                'videos' => [],
+                'details' => 'TBA',
+                'event_date' => '2024-08-18',
+            ],
         ];
 
         foreach ($events as $event) {
