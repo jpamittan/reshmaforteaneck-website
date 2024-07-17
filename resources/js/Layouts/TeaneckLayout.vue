@@ -26,7 +26,7 @@ const navigation = [
         path: "/events",
     },
     {
-        name: "Volunteer",
+        name: "Join the Khanation",
         href: route("volunteer.index"),
         path: "/volunteer",
     },
