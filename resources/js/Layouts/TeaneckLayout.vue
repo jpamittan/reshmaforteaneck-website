@@ -26,6 +26,11 @@ const navigation = [
         path: "/events",
     },
     {
+        name: "Volunteer",
+        href: route("volunteer.index"),
+        path: "/volunteer",
+    },
+    {
         name: "Why I deserve your vote",
         href: route("community.index"),
         path: "/community",
