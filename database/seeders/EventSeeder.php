@@ -70,9 +70,11 @@ class EventSeeder extends Seeder
             ],
             [
                 'title' => 'Live podcast with Tevra Francis of NJ in Color fame',
-                'images' => [],
+                'images' => [
+                    'youtube.jpg'
+                ],
                 'videos' => [],
-                'details' => 'TBA',
+                'details' => 'https://www.youtube.com/watch?v=Y9Aw7CdOU6w',
                 'event_date' => '2024-08-18',
             ],
         ];
