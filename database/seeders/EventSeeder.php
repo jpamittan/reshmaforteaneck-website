@@ -74,7 +74,7 @@ class EventSeeder extends Seeder
                     'youtube.jpg'
                 ],
                 'videos' => [],
-                'details' => 'https://www.youtube.com/watch?v=Y9Aw7CdOU6w',
+                'details' => 'Click here to watch <u><a href="https://www.youtube.com/watch?v=Y9Aw7CdOU6w" color="blue">https://www.youtube.com/watch?v=Y9Aw7CdOU6w</a></u>',
                 'event_date' => '2024-08-18',
             ],
         ];
