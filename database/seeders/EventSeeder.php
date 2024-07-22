@@ -59,13 +59,13 @@ class EventSeeder extends Seeder
                 'event_date' => '2024-06-27',
             ],
             [
-                'title' => 'One Town One Vote Campaign',
+                'title' => 'Movie screening',
                 'images' => [
                     '1.webp',
                     '2.webp',
                 ],
                 'videos' => [],
-                'details' => 'Vote YES twice. Yes to question 1: Community Choice Aggregation and Yes to question 2: Do you want the May elections to be moved to November.',
+                'details' => 'Movie screening of the film "The Suffragettes"',
                 'event_date' => '2024-07-11',
             ],
             [
