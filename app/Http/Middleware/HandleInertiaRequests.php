@@ -46,6 +46,7 @@ class HandleInertiaRequests extends Middleware
             'csrf_token' => csrf_token(),
             'year' => date('Y'),
             'session_message' => Session::has('message') ? Session::get('message') : null,
+            'tiny_cloud' => config('app.tiny_cloud'),
         ]);
     }
 }

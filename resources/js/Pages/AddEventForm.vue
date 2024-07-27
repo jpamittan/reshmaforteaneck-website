@@ -11,6 +11,8 @@ import { useForm, usePage } from "@inertiajs/vue3";
 
 const page = usePage();
 
+const tiny_cloud = computed(() => page.props.tiny_cloud);
+
 const form = useForm({
     csrf_token: computed(() => page.props.csrf_token),
     title: "",
@@ -84,7 +86,7 @@ const removeImage = (image) => {
                         />
                         <Editor
                             id="details"
-                            api-key="cqg3dvm27bgf3janjvprnihb37w1f0f2hnj6rowyajr5ytlv"
+                            :api-key="tiny_cloud"
                             :init="{
                                 toolbar_mode: 'sliding',
                                 plugins:

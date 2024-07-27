@@ -15,6 +15,8 @@ const props = defineProps({
 
 const page = usePage();
 
+const tiny_cloud = computed(() => page.props.tiny_cloud);
+
 const updateform = useForm({
     csrf_token: computed(() => page.props.csrf_token),
     title: props.eventObj.title,
@@ -110,7 +112,7 @@ const deleteEvent = (event) => {
                         />
                         <Editor
                             id="details"
-                            api-key="cqg3dvm27bgf3janjvprnihb37w1f0f2hnj6rowyajr5ytlv"
+                            :api-key="tiny_cloud"
                             :init="{
                                 toolbar_mode: 'sliding',
                                 plugins:

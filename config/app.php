@@ -123,4 +123,15 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Tiny Cloud Text Editor
+    |--------------------------------------------------------------------------
+    |
+    | API key for Tiny Cloud Text Editor
+    |
+    */
+
+    'tiny_cloud' => env('TINY_CLOUD', ''),
+
 ];

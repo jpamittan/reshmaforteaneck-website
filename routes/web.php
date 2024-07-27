@@ -18,8 +18,8 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
+    Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::prefix('admin')->group(function () {
-        Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
         Route::get('/contact-us', [AdminController::class, 'contactUs'])->name('admin.contactUs');
         Route::get('/event', [AdminController::class, 'addEvent'])->name('admin.addEvent');
         Route::get('/event/{event}', [AdminController::class, 'viewEvent'])->name('admin.viewEvent');
