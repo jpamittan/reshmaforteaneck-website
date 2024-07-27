@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9783a7a3727aecb4f2a6b138045d79a2",
+    "content-hash": "13e032baf4970cc705156d0c05fd55b4",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -6320,6 +6320,70 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "beyondcode/helo-laravel",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beyondcode/helo-laravel.git",
+                "reference": "34e8d9c8e60438189266f2074d75b1880939308d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beyondcode/helo-laravel/zipball/34e8d9c8e60438189266f2074d75b1880939308d",
+                "reference": "34e8d9c8e60438189266f2074d75b1880939308d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+                "illuminate/mail": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+                "illuminate/view": "^8.0 || ^9.0 || ^10.0 || ^11.0",
+                "php": "^8.0 || ^8.1 || ^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0 || ^8.0 || ^9.0",
+                "pestphp/pest": "1.x-dev || 2.x-dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "11.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "BeyondCode\\HeloLaravel\\HeloLaravelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BeyondCode\\HeloLaravel\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "marcel@beyondco.de",
+                    "homepage": "https://beyondcode.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HELO Laravel debug helper",
+            "homepage": "https://github.com/beyondcode/helo-laravel",
+            "keywords": [
+                "HELO",
+                "beyondcode"
+            ],
+            "support": {
+                "issues": "https://github.com/beyondcode/helo-laravel/issues",
+                "source": "https://github.com/beyondcode/helo-laravel/tree/1.8.0"
+            },
+            "time": "2024-03-13T14:41:12+00:00"
+        },
         {
             "name": "fakerphp/faker",
             "version": "v1.23.1",

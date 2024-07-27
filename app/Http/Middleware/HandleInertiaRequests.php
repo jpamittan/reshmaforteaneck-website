@@ -3,8 +3,10 @@
 namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 use Inertia\Middleware;
 use Tighten\Ziggy\Ziggy;
+
 
 class HandleInertiaRequests extends Middleware
 {
@@ -41,7 +43,9 @@ class HandleInertiaRequests extends Middleware
                 ...(new Ziggy)->toArray(),
                 'location' => $request->url(),
             ],
-            'year' => date('Y')
+            'csrf_token' => csrf_token(),
+            'year' => date('Y'),
+            'session_message' => Session::has('message') ? Session::get('message') : null,
         ]);
     }
 }

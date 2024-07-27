@@ -75,13 +75,16 @@ defineProps({
                                     :key="imageIdx"
                                 >
                                     <a
-                                        :href="'storage/assets/events/' + image"
+                                        :href="
+                                            '/storage/assets/events/' + image
+                                        "
                                         target="_blank"
                                     >
                                         <img
                                             class="w-full"
                                             :src="
-                                                'storage/assets/events/' + image
+                                                '/storage/assets/events/' +
+                                                image
                                             "
                                             alt="Event Image"
                                         />
@@ -98,7 +101,8 @@ defineProps({
                                     <video autoplay loop muted>
                                         <source
                                             :src="
-                                                'storage/assets/events/' + video
+                                                '/storage/assets/events/' +
+                                                video
                                             "
                                             type="video/mp4"
                                         />

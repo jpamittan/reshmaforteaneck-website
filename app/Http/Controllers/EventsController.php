@@ -12,7 +12,7 @@ class EventsController extends Controller
 {
     public function index()
     {
-        $events = Event::orderBy('event_date', 'DESC')
+        $events = Event::orderBy('event_date', 'desc')
             ->get();
 
         return Inertia::render('Teaneck/Events', [

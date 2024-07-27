@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\{
+    AdminController,
     ActBlueController,
     CommunityController,
     ContactUsController,
@@ -11,17 +12,25 @@ use App\Http\Controllers\{
 };
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
-    })->name('dashboard');
+    Route::prefix('admin')->group(function () {
+        Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+        Route::get('/contact-us', [AdminController::class, 'contactUs'])->name('admin.contactUs');
+        Route::get('/event', [AdminController::class, 'addEvent'])->name('admin.addEvent');
+        Route::get('/event/{event}', [AdminController::class, 'viewEvent'])->name('admin.viewEvent');
+        Route::post('/event', [AdminController::class, 'createEvent'])->name('admin.createEvent');
+        Route::put('/event/{event}', [AdminController::class, 'updateEvent'])->name('admin.updateEvent');
+        Route::delete('/event/{event}', [AdminController::class, 'deleteEvent'])->name('admin.deleteEvent');
+    });
 });
+
+Route::get('/register', [AdminController::class, 'register'])->name('admin.register');
+Route::post('/register', [AdminController::class, 'saveUser'])->name('admin.saveUser');
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/act-blue', [ActBlueController::class, 'index'])->name('act-blue.index');
