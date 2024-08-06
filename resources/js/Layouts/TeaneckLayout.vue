@@ -1,7 +1,7 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
-import { computed, reactive, ref } from "vue";
+import { computed, ref } from "vue";
 import { Head, Link, usePage } from "@inertiajs/vue3";
 
 defineProps({});
