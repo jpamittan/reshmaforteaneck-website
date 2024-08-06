@@ -69,7 +69,14 @@ defineProps({
                             v-html="event.details"
                         ></div>
                         <div class="text-md leading-6 text-gray-500 mt-4">
-                            <div class="grid grid-cols-2 gap-1">
+                            <div
+                                :class="[
+                                    'grid gap-1',
+                                    event.images.length === 1
+                                        ? 'grid-cols-1'
+                                        : 'grid-cols-2',
+                                ]"
+                            >
                                 <div
                                     v-for="(image, imageIdx) in event.images"
                                     :key="imageIdx"
