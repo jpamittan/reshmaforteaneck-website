@@ -31,6 +31,11 @@ const navigation = [
         path: "/talks",
     },
     {
+        name: "Meet Reshma",
+        href: route("meet.index"),
+        path: "/meet",
+    },
+    {
         name: "Join the Khanation",
         href: route("volunteer.index"),
         path: "/volunteer",
@@ -117,12 +122,12 @@ const navigation = [
                         </DisclosureButton>
                     </div>
                 </DisclosurePanel>
-                <div class="hidden lg:flex lg:gap-x-12 text-4xl">
+                <div class="hidden lg:flex lg:gap-x-8 text-4xl">
                     <Link
                         v-for="nav in navigation"
                         :key="nav.name"
                         :href="nav.href"
-                        :class="`text-sm font-semibold leading-6 text-black uppercase ${
+                        :class="`text-sm font-semibold leading-6 text-black uppercase text-center ${
                             url === nav.path
                                 ? 'underline underline-offset-8'
                                 : ''
