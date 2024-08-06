@@ -8,6 +8,7 @@ use App\Http\Controllers\{
     EventsController,
     HomeController,
     ImportantDatesController,
+    TalksController,
     VolunteerController
 };
 use Illuminate\Foundation\Application;
@@ -35,6 +36,7 @@ Route::post('/register', [AdminController::class, 'saveUser'])->name('admin.save
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/act-blue', [ActBlueController::class, 'index'])->name('act-blue.index');
 Route::get('/events', [EventsController::class, 'index'])->name('events.index');
+Route::get('/talks', [TalksController::class, 'index'])->name('talks.index');
 Route::get('/volunteer', [VolunteerController::class, 'index'])->name('volunteer.index');
 Route::get('/community', [CommunityController::class, 'index'])->name('community.index');
 Route::get('/contact-us', [ContactUsController::class, 'index'])->name('contact-us.index');

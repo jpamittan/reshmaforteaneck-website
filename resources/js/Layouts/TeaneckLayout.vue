@@ -26,6 +26,11 @@ const navigation = [
         path: "/events",
     },
     {
+        name: "Reshma's Talks",
+        href: route("talks.index"),
+        path: "/talks",
+    },
+    {
         name: "Join the Khanation",
         href: route("volunteer.index"),
         path: "/volunteer",
