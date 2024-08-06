@@ -12,6 +12,14 @@ defineProps({});
                 >
                     Dear Neighbors,
                 </h2>
+                <div class="my-4">
+                    <video controls class="mt-4">
+                        <source
+                            src="https://d2ksp7h358sca7.cloudfront.net/assets/reshma/Reshma-Khan-Video.mp4"
+                            type="video/mp4"
+                        />
+                    </video>
+                </div>
                 <p class="mt-6 text-base leading-7 text-gray-600">
                     For nearly twenty years, Teaneck has been my home—a place of
                     diverse cultures and shared dreams. It's where I've had the
