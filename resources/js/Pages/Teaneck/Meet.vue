@@ -35,7 +35,7 @@ const images = [
                         class="flex-auto rounded-md p-3 ring-1 ring-inset ring-gray-200"
                     >
                         <div class="text-md leading-6 text-gray-500 mt-4">
-                            <div class="grid grid-cols-1 gap-1">
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-1">
                                 <div
                                     v-for="(image, imageIdx) in images"
                                     :key="imageIdx"
@@ -60,7 +60,7 @@ const images = [
                                             target="_blank"
                                         >
                                             <img
-                                                class="w-full"
+                                                class="w-full h-auto sm:h-[28rem]"
                                                 :src="
                                                     '/storage/assets/meet/' +
                                                     image
