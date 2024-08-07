@@ -88,7 +88,7 @@ defineProps({
                                         target="_blank"
                                     >
                                         <img
-                                            class="w-full"
+                                            class="w-full h-[28rem]"
                                             :src="
                                                 '/storage/assets/events/' +
                                                 image

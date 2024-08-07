@@ -92,7 +92,14 @@ defineProps({
                                 <div
                                     class="text-md leading-6 text-gray-500 mt-4"
                                 >
-                                    <div class="grid grid-cols-2 gap-1">
+                                    <div
+                                        :class="[
+                                            'grid gap-1',
+                                            event.images.length === 1
+                                                ? 'grid-cols-1'
+                                                : 'grid-cols-2',
+                                        ]"
+                                    >
                                         <div
                                             v-for="(
                                                 image, imageIdx
@@ -107,7 +114,7 @@ defineProps({
                                                 target="_blank"
                                             >
                                                 <img
-                                                    class="w-full"
+                                                    class="w-full h-[28rem]"
                                                     :src="
                                                         '/storage/assets/events/' +
                                                         image
