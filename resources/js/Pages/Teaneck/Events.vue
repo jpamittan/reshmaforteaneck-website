@@ -89,6 +89,12 @@ defineProps({
                                     >
                                         <img
                                             class="w-full h-[28rem]"
+                                            :class="[
+                                                'w-full',
+                                                event.images.length === 1
+                                                    ? 'h-auto'
+                                                    : 'h-[28rem]',
+                                            ]"
                                             :src="
                                                 '/storage/assets/events/' +
                                                 image
