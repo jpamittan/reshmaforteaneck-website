@@ -17,7 +17,7 @@ class AdminController extends Controller
 {
     public function dashboard()
     {
-        $events = Event::orderBy('id', 'desc')
+        $events = Event::orderBy('event_date', 'desc')
             ->get();
 
         return Inertia::render('Events', [
