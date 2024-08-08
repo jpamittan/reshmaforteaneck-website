@@ -274,7 +274,7 @@ const redirectActBlue = (amount) => {
                                         <div class="mt-2">
                                             <p class="text-sm text-gray-500">
                                                 Together we Khan do it. Are you
-                                                with us? join our campaign to
+                                                with us? Join our campaign to
                                                 elect Reshma Khan today.
                                             </p>
                                         </div>
