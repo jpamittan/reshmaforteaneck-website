@@ -25,11 +25,11 @@ const navigation = [
         href: route("events.index"),
         path: "/events",
     },
-    {
-        name: "Reshma's Talks",
-        href: route("talks.index"),
-        path: "/talks",
-    },
+    // {
+    //     name: "Reshma's Talks",
+    //     href: route("talks.index"),
+    //     path: "/talks",
+    // },
     {
         name: "Meet Reshma",
         href: route("meet.index"),

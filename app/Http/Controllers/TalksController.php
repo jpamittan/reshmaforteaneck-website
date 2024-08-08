@@ -9,6 +9,8 @@ class TalksController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Teaneck/Talks', []);
+        // return Inertia::render('Teaneck/Talks', []);
+
+        return to_route('home.index');
     }
 }
