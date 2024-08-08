@@ -258,7 +258,7 @@ const redirectActBlue = (amount) => {
                                     >
                                         <img
                                             class="w-full h-auto"
-                                            src="/storage/assets/reshma2.webp"
+                                            src="/storage/assets/reshma3.webp"
                                             alt="Reshma Image"
                                         />
                                     </div>
@@ -273,10 +273,9 @@ const redirectActBlue = (amount) => {
                                         </DialogTitle>
                                         <div class="mt-2">
                                             <p class="text-sm text-gray-500">
-                                                Together, we can finish the job
-                                                for the American people. Are you
-                                                with us? Join our campaign to
-                                                elect Reshma Khan today!
+                                                Together we Khan do it. Are you
+                                                with us? join our campaign to
+                                                elect Reshma Khan today.
                                             </p>
                                         </div>
 
@@ -285,14 +284,14 @@ const redirectActBlue = (amount) => {
                                         >
                                             <button
                                                 type="button"
-                                                class="inline-flex w-full justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 w-32 h-12 table"
+                                                class="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 w-32 h-12 table"
                                                 @click="redirectActBlue(150)"
                                             >
                                                 $150
                                             </button>
                                             <button
                                                 type="button"
-                                                class="inline-flex w-full justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 sm:ml-3 sm:mt-0 w-32 h-12 table"
+                                                class="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 sm:ml-3 sm:mt-0 w-32 h-12 table"
                                                 @click="redirectActBlue(200)"
                                             >
                                                 $200
@@ -303,14 +302,14 @@ const redirectActBlue = (amount) => {
                                         >
                                             <button
                                                 type="button"
-                                                class="inline-flex w-full justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 w-32 h-12 table"
+                                                class="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 w-32 h-12 table"
                                                 @click="redirectActBlue(500)"
                                             >
                                                 $500
                                             </button>
                                             <button
                                                 type="button"
-                                                class="inline-flex w-full justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 sm:ml-3 sm:mt-0 w-32 h-12 table"
+                                                class="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 sm:ml-3 sm:mt-0 w-32 h-12 table"
                                                 @click="redirectActBlue(1000)"
                                             >
                                                 $1000
@@ -321,14 +320,14 @@ const redirectActBlue = (amount) => {
                                         >
                                             <button
                                                 type="button"
-                                                class="inline-flex w-full justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 w-32 h-12 table"
+                                                class="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 w-32 h-12 table"
                                                 @click="redirectActBlue(2000)"
                                             >
                                                 $2000
                                             </button>
                                             <button
                                                 type="button"
-                                                class="inline-flex w-full justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 sm:ml-3 sm:mt-0 w-32 h-12 table"
+                                                class="inline-flex w-full justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 sm:ml-3 sm:mt-0 w-32 h-12 table"
                                                 @click="redirectActBlue(2500)"
                                             >
                                                 $2500
