@@ -269,7 +269,7 @@ const redirectActBlue = (amount) => {
                                             as="h3"
                                             class="text-base font-semibold leading-6 text-gray-900"
                                         >
-                                            Meet Reshma
+                                            Support Reshma for Teaneck
                                         </DialogTitle>
                                         <div class="mt-2">
                                             <p class="text-sm text-gray-500">
